@@ -1,0 +1,21 @@
+.blog-details p {
+    font-size: 12px !important;
+}
+
+.blog-details {
+    width: 230px !important;
+    height: 230px !important;
+}
+
+.blog-card {
+    margin-bottom: 50px !important;
+}
+
+.single-blog {
+    background-color: white;
+}
+
+
+/* .blog-area {
+    background-color: rgb(248, 253, 255);
+} */

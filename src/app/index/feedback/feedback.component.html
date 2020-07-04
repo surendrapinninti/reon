@@ -1,0 +1,46 @@
+<!--================ Start Testimonial Area =================-->
+<section class="testimonial-area  ">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 text-center">
+                <div class="section-title">
+                    <p>What clients say about us</p>
+                    <h1> <span>Testimonials</span> </h1>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <div class="owl-carousel active-testi-carousel">
+                    <!-- single carousel -->
+                    <div class="single-testi-item" *ngFor="let item of data">
+                        <div class="author-title">
+                            <div class="thumb"><img src="{{item.img}}" alt=""></div>
+                            <div class="a-desc">
+                                <h6>{{item.name}}</h6>
+                                {{item.designation}}, {{item.company}}
+                            </div>
+                        </div>
+                        <div class="author-desc">
+                            <p>{{item.content}}</p>
+                        </div>
+                    </div>
+                    <!-- single carousel -->
+                    <!-- <div class="single-testi-item">
+                        <div class="author-title">
+                            <div class="thumb"><img src="./../../assets/img/about-author.png" alt=""></div>
+                            <div class="a-desc">
+                                <h6>Marvel Maison</h6>
+                                <p>Chief Executive, Amazon</p>
+                            </div>
+                        </div>
+                        <div class="author-desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================ End Testimonial Area =================-->

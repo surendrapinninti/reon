@@ -1,0 +1,30 @@
+<!--================ Start Service Area =================-->
+<section class="service-area section-gap">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 text-center">
+                <div class="section-title">
+                    <!-- <p>We Are Providing these services</p> -->
+                    <h1>What you get from <span>Reonsphere.</span></h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- single-features -->
+            <div class="col-lg-3 col-sm-6 col-md-6" *ngFor="let item of data">
+                <div class="single-service">
+                    <div class="service-icon">
+                        <img src="./../../assets/img/service/shape1.png" width="30%" alt="">
+                        <img class="s-icon" src="{{item.img2}}" width="40%" height="auto" alt="">
+                        <img class="clr-icon" src="{{item.img3}}" width="40%" height="auto" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h4>{{item.heading}}</h4>
+                        <p>{{item.content}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================ End Service Area =================-->

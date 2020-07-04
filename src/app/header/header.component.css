@@ -1,0 +1,11 @@
+.bs-example {
+    margin: 20px;
+}
+
+.logo-right {
+    position: relative !important;
+    text-align: right !important;
+    width: 10%;
+    height: auto;
+    margin-left: 25%;
+}

@@ -1,0 +1,54 @@
+/*Service area css
+==========================================*/
+
+@media (max-width: 991px) {
+    .single-service {
+        margin-bottom: 30px;
+    }
+}
+
+.single-service .service-icon {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.single-service .service-icon .s-icon1 {
+    position: absolute;
+    left: -3%;
+    top: -2%;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single-service .service-icon .clr-icon1 {
+    position: absolute;
+    left: -3%;
+    top: -1%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single-service .service-content h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.single-service .service-content p {
+    margin-bottom: 0;
+}
+
+.single-service:hover .service-icon .s-icon1 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.single-service:hover .service-icon .clr-icon1 {
+    opacity: 1;
+    visibility: visible;
+}

@@ -1,0 +1,71 @@
+<!--================Home Banner Area =================-->
+<section class="banner_area ">
+    <div class="banner_inner overlay d-flex align-items-center">
+        <div class="container">
+            <div class="banner_content text-left">
+                <div class="page_link">
+                    <a href="/">Home</a>
+                    <a href="/contact-us">Contact</a>
+                </div>
+                <h2>Contact Us</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+
+<!--================Contact Area =================-->
+<section class="contact_area section-gap">
+    <div class="container">
+
+        <div class="mapBox">
+            <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.4628079038594!2d81.77072761479074!3d17.000954188311223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37a5b967ff49c1%3A0x2527e047a2accfc3!2sReonsphere!5e0!3m2!1sen!2sin!4v1591068816332!5m2!1sen!2sin"></iframe>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="contact_info">
+                    <div class="info_item">
+                        <i class="lnr lnr-home"></i>
+                        <h6> Andhra Pradesh, India.</h6>
+                        <p> Rajahmundry.</p>
+                    </div>
+                    <div class="info_item">
+                        <i class="lnr lnr-phone-handset"></i>
+                        <h6><a href="#">+91-756-993-3566</a></h6>
+                        <p>Mon to Fri 9am to 9 pm</p>
+                    </div>
+                    <div class="info_item">
+                        <i class="lnr lnr-envelope"></i>
+                        <h6><a href="#">reonsphere@gmail.com</a></h6>
+                        <p>Send us your query anytime!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <form class="row contact_form" id="contactForm" novalidate="novalidate" #contact="ngForm" (ngSubmit)="onsubmit(contact.value)">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="name" ngModel placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" name="email" ngModel placeholder="Enter email address">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="subject" name="subject" ngModel placeholder="Enter Subject">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" id="message" rows="1" ngModel placeholder="Enter Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-right">
+                        <input type="submit" value="Send Message" name="submit" class="primary-btn">
+                        <!-- <button type="submit" value="submit" class="primary-btn">Send Message</button> -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
